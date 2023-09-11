@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16741B9E2AAE518D006693CD /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16741B9D2AAE518D006693CD /* TextViews.swift */; };
+		16741BA52AAEAE0F006693CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16741BA42AAEAE0F006693CD /* Constants.swift */; };
+		16741BA82AAEB361006693CD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16741BA72AAEB361006693CD /* HeaderView.swift */; };
+		16741BAA2AAEB3F8006693CD /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16741BA92AAEB3F8006693CD /* SliderViews.swift */; };
+		16741BAC2AAECBB4006693CD /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16741BAB2AAECBB4006693CD /* ButtonViews.swift */; };
 		1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F4AF25190F2A00BB00F1 /* AppMain.swift */; };
 		18D775C522AD944300AE281E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D775C422AD944300AE281E /* ContentView.swift */; };
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16741B9D2AAE518D006693CD /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		16741BA42AAEAE0F006693CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		16741BA72AAEB361006693CD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		16741BA92AAEB3F8006693CD /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
+		16741BAB2AAECBB4006693CD /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
 		1839F4AF25190F2A00BB00F1 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		18D775BD22AD944300AE281E /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D775C422AD944300AE281E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16741BA32AAEADF6006693CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16741BA42AAEAE0F006693CD /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +74,13 @@
 		18D775BF22AD944300AE281E /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				16741BA32AAEADF6006693CD /* Models */,
 				1839F4AF25190F2A00BB00F1 /* AppMain.swift */,
 				18D775C422AD944300AE281E /* ContentView.swift */,
+				16741BAB2AAECBB4006693CD /* ButtonViews.swift */,
+				16741BA92AAEB3F8006693CD /* SliderViews.swift */,
+				16741BA72AAEB361006693CD /* HeaderView.swift */,
+				16741B9D2AAE518D006693CD /* TextViews.swift */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
@@ -169,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16741BAC2AAECBB4006693CD /* ButtonViews.swift in Sources */,
+				16741BA52AAEAE0F006693CD /* Constants.swift in Sources */,
+				16741BA82AAEB361006693CD /* HeaderView.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
+				16741BAA2AAEB3F8006693CD /* SliderViews.swift in Sources */,
+				16741B9E2AAE518D006693CD /* TextViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
